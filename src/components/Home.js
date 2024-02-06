@@ -1,7 +1,14 @@
 import React from "react";
+import './NavBar.css';
 
 function Home() {
-  return <div>{/*{code here}*/}</div>;
+  return (
+    <div>
+      <h1>Home Page</h1>
+      <p>Welcome!</p>
+    </div>
+  );
 }
 
-export default Home;
+export default Home
+

@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ef690f;
+    padding: 10px;
+}
+  
+.navLink {
+    color: rgb(22, 14, 14);
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 26px;
+    font-weight: bold;
+ }
+  
+.navLink:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+  
+h1 {
+    font-size: 44px;
+    color: #333;
+    margin-bottom: 1rem;
+ }
+  
+p {
+    font-size: 20px;
+    color: #2d2923;
+    margin-top: 1rem;
+ }
+
+.directorsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+div {
+    margin-bottom: 1rem;
+  }
+  
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 0;
+  }
+  
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
+  }
+  
+li {
+    font-size: 1.2rem;
+    color: #2d2923;
+    margin-bottom: 0.2rem;
+  }
